@@ -17,6 +17,7 @@
         <p><b>Category:</b> {{description.category}}</p>
         <p><b>Description:</b> {{description.details}}</p>
         <p><b>Contact Owner:</b> {{description.ContactOwner}}</p>
+        <h3 class="text-primary"> <a href="https://www.google.co.in/maps/place/{{description.address}}" target="_blank">CLICK HERE FOR DIRECTIONS</a> </h3>
         <form action="/addtocart" method="get">
             <input name="pid" value="{{description.id}}" hidden>
            <b> <label for="qty">Select Number of People in one room:</label></b>
